@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SDViewController.h"
 
-@interface ViewController ()
+@interface SDViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

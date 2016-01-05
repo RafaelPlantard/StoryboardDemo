@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		532E4DC11C3C41C7003F0CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DC01C3C41C7003F0CF3 /* main.m */; };
-		532E4DC41C3C41C7003F0CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DC31C3C41C7003F0CF3 /* AppDelegate.m */; };
-		532E4DC71C3C41C7003F0CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DC61C3C41C7003F0CF3 /* ViewController.m */; };
+		532E4DC41C3C41C7003F0CF3 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DC31C3C41C7003F0CF3 /* SDAppDelegate.m */; };
+		532E4DC71C3C41C7003F0CF3 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DC61C3C41C7003F0CF3 /* SDViewController.m */; };
 		532E4DCA1C3C41C7003F0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DC81C3C41C7003F0CF3 /* Main.storyboard */; };
 		532E4DCC1C3C41C7003F0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DCB1C3C41C7003F0CF3 /* Assets.xcassets */; };
 		532E4DCF1C3C41C7003F0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DCD1C3C41C7003F0CF3 /* LaunchScreen.storyboard */; };
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		532E4DBC1C3C41C7003F0CF3 /* StoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		532E4DC01C3C41C7003F0CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		532E4DC21C3C41C7003F0CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		532E4DC31C3C41C7003F0CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		532E4DC51C3C41C7003F0CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		532E4DC61C3C41C7003F0CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		532E4DC21C3C41C7003F0CF3 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
+		532E4DC31C3C41C7003F0CF3 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
+		532E4DC51C3C41C7003F0CF3 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
+		532E4DC61C3C41C7003F0CF3 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 		532E4DC91C3C41C7003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		532E4DCB1C3C41C7003F0CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		532E4DCE1C3C41C7003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		532E4DBE1C3C41C7003F0CF3 /* StoryboardDemo */ = {
 			isa = PBXGroup;
 			children = (
-				532E4DC21C3C41C7003F0CF3 /* AppDelegate.h */,
-				532E4DC31C3C41C7003F0CF3 /* AppDelegate.m */,
-				532E4DC51C3C41C7003F0CF3 /* ViewController.h */,
-				532E4DC61C3C41C7003F0CF3 /* ViewController.m */,
+				532E4DC21C3C41C7003F0CF3 /* SDAppDelegate.h */,
+				532E4DC31C3C41C7003F0CF3 /* SDAppDelegate.m */,
+				532E4DC51C3C41C7003F0CF3 /* SDViewController.h */,
+				532E4DC61C3C41C7003F0CF3 /* SDViewController.m */,
 				532E4DC81C3C41C7003F0CF3 /* Main.storyboard */,
 				532E4DCB1C3C41C7003F0CF3 /* Assets.xcassets */,
 				532E4DCD1C3C41C7003F0CF3 /* LaunchScreen.storyboard */,
@@ -213,8 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532E4DC71C3C41C7003F0CF3 /* ViewController.m in Sources */,
-				532E4DC41C3C41C7003F0CF3 /* AppDelegate.m in Sources */,
+				532E4DC71C3C41C7003F0CF3 /* SDViewController.m in Sources */,
+				532E4DC41C3C41C7003F0CF3 /* SDAppDelegate.m in Sources */,
 				532E4DC11C3C41C7003F0CF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StoryboardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.data-empire.StoryboardDemo";
@@ -352,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StoryboardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.data-empire.StoryboardDemo";

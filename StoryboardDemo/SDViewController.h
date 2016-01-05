@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  StoryboardDemo
 //
 //  Created by Rafael Ferreira on 1/5/16.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+/*! @brief Controller for the home view. */
+@interface SDViewController : UIViewController
 
 
 @end
-
