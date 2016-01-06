@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 /*! @brief Controller for the home view. */
-@interface SDViewController : UIViewController
-
+@interface SDHomeViewController : UIViewController
 
 @end
