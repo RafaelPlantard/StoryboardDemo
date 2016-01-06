@@ -32,7 +32,6 @@
 
 /*! @brief Like a stub for the Unwind Segue action. */
 - (IBAction)resetToHomeWithSegue:(UIStoryboardSegue *)segue{
-    NSLog(@"%@", @"Passa aqui qualquer");
 }
 
 @end
