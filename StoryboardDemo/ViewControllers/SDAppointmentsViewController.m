@@ -7,6 +7,7 @@
 //
 
 #import "SDAppointmentsViewController.h"
+#import "SDAppointmentDetailsViewController.h"
 
 @interface SDAppointmentsViewController ()
 
@@ -14,9 +15,16 @@
 
 @implementation SDAppointmentsViewController
 
+/*! @brief The count of times that this page was loaded. */
+static int accessCount;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    accessCount++;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,6 +38,16 @@
 
 - (IBAction)toDetailsScene:(id)sender {
     [self performSegueWithIdentifier:@"AppointmentsToDetailsSegue" sender:sender];
+}
+
+#pragma mark - Segue
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"AppointmentsToDetailsSegue"]) {
+        SDAppointmentDetailsViewController *detailsViewController = segue.destinationViewController;
+        
+        detailsViewController.descriptionDetails = [NSString stringWithFormat:@"Content from the List scene. \nThe List scene was showed %d times", accessCount];
+    }
 }
 
 @end

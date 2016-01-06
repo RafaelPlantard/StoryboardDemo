@@ -15,6 +15,7 @@
 		532E4DCF1C3C41C7003F0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DCD1C3C41C7003F0CF3 /* LaunchScreen.storyboard */; };
 		532E4DDA1C3C41C7003F0CF3 /* StoryboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DD91C3C41C7003F0CF3 /* StoryboardDemoTests.m */; };
 		532E4DE71C3C5C39003F0CF3 /* SDAppointmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DE61C3C5C39003F0CF3 /* SDAppointmentsViewController.m */; };
+		53D142001C3D49910051A7E9 /* SDAppointmentDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D141FF1C3D49910051A7E9 /* SDAppointmentDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		532E4DDB1C3C41C7003F0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532E4DE51C3C5C39003F0CF3 /* SDAppointmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAppointmentsViewController.h; sourceTree = "<group>"; };
 		532E4DE61C3C5C39003F0CF3 /* SDAppointmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAppointmentsViewController.m; sourceTree = "<group>"; };
+		53D141FE1C3D49910051A7E9 /* SDAppointmentDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAppointmentDetailsViewController.h; sourceTree = "<group>"; };
+		53D141FF1C3D49910051A7E9 /* SDAppointmentDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAppointmentDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 			children = (
 				532E4DE51C3C5C39003F0CF3 /* SDAppointmentsViewController.h */,
 				532E4DE61C3C5C39003F0CF3 /* SDAppointmentsViewController.m */,
+				53D141FE1C3D49910051A7E9 /* SDAppointmentDetailsViewController.h */,
+				53D141FF1C3D49910051A7E9 /* SDAppointmentDetailsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D142001C3D49910051A7E9 /* SDAppointmentDetailsViewController.m in Sources */,
 				532E4DC71C3C41C7003F0CF3 /* SDHomeViewController.m in Sources */,
 				532E4DE71C3C5C39003F0CF3 /* SDAppointmentsViewController.m in Sources */,
 				532E4DC41C3C41C7003F0CF3 /* SDAppDelegate.m in Sources */,
@@ -418,6 +424,7 @@
 				532E4DE01C3C41C7003F0CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		532E4DE11C3C41C7003F0CF3 /* Build configuration list for PBXNativeTarget "StoryboardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				532E4DE31C3C41C7003F0CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

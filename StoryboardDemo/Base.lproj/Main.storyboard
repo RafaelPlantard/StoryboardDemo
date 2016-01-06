@@ -165,7 +165,7 @@
         <!--Details-->
         <scene sceneID="kO8-eu-Qxh">
             <objects>
-                <viewController title="Details" id="F1V-KA-bmQ" sceneMemberID="viewController">
+                <viewController title="Details" id="F1V-KA-bmQ" customClass="SDAppointmentDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dPe-jg-ZQU"/>
                         <viewControllerLayoutGuide type="bottom" id="ag1-aP-GdY"/>
@@ -173,9 +173,20 @@
                     <view key="view" contentMode="scaleToFill" id="hDj-b1-gnb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details are showed here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYv-K3-B5P">
+                                <rect key="frame" x="20" y="259" width="280" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="detailsLabel" destination="AYv-K3-B5P" id="dt8-Uz-dpA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wom-ZD-Va6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
